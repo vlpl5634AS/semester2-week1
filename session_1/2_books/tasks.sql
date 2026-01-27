@@ -11,3 +11,10 @@
 -- write your sql code here
 
 SELECT * from books;
+SELECT Title, Author from books;
+SELECT Title from books where YearPublished > 2015;
+SELECT Title from books where pages > 400;
+SELECT Title from books where rating>= 4;
+select Title from books where genre = 'Fantasy';
+select Title from books where YearPublished < 2000;
+select Title from books where pages < 300;
