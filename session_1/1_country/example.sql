@@ -9,3 +9,6 @@
 -- 2. Load this script: .read example.sql
 -- 3. Exit SQLite: .exit
 
+
+select * from countries
+where Continent = 'Europe';

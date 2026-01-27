@@ -12,3 +12,7 @@
 
 -- write your sql code here
 
+select Country from countries order by Population desc limit 10;
+select Country from countries order by AreaSqMi desc limit 1;
+select Country from countries where InfantMortalityPer1000 > 50 order by LiteracyPercent desc limit 1;
+select Country from countries order by Country desc limit 10;
