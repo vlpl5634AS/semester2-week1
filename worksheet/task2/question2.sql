@@ -5,4 +5,4 @@
 .mode column
 .headers on
 
-select StudentId, FirstName, LastName, DateOfBirth from student order by DateOfBirth asc limit 5
+select StudentId, FirstName, LastName, DateOfBirth from student order by DateOfBirth desc limit 5
